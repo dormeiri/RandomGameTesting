@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>TestingGaming</title>
+    </head>
+    <body>
+        <div class="app">
+            <canvas id="canvas-mouse-event"></canvas>
+            <canvas id="canvas-background"></canvas>
+            <canvas id="canvas-game"></canvas>
+            <canvas id="canvas-hud"></canvas>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+
+        <script type="text/javascript" src="scripts/canvasHandler/load.js"></script>
+        <script type="text/javascript" src="scripts/canvasHandler/loadImages.js"></script>
+        <script type="text/javascript" src="scripts/canvasHandler/update.js"></script>
+        <script type="text/javascript" src="scripts/canvasHandler/camera.js"></script>
+
+        <script type="text/javascript" src="scripts/components/worldMapTile.js"></script>
+        <script type="text/javascript" src="scripts/components/gameComponent.js"></script>
+        <script type="text/javascript" src="scripts/components/player.js"></script>
+        <script type="text/javascript" src="scripts/components/aiComponent.js"></script>
+        <script type="text/javascript" src="scripts/components/coin.js"></script>
+        <script type="text/javascript" src="scripts/components/enemy.js"></script>
+        <script type="text/javascript" src="scripts/components/frog.js"></script>
+        <script type="text/javascript" src="scripts/components/bat.js"></script>
+        <script type="text/javascript" src="scripts/components/healthBar.js"></script>
+        <script type="text/javascript" src="scripts/components/buttonComponent.js"></script>
+        <script type="text/javascript" src="scripts/components/textComponent.js"></script>
+        <script type="text/javascript" src="scripts/components/touchAnimation.js"></script>
+        <script type="text/javascript" src="scripts/components/touchFXAnimation.js"></script>
+        <script type="text/javascript" src="scripts/components/touchTextAnimation.js"></script>
+        <script type="text/javascript" src="scripts/canvasHandler/sprite.js"></script>
+    </body>
+</html>

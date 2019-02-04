@@ -1,0 +1,11 @@
+{
+  "android": {
+    "release": {
+      "keystore": "c:\\releases\\dorm.keystore",
+      "storePassword": "111111",
+      "alias": "dorm",
+      "password": "111111",
+      "keystoreType": ""
+    }
+  }
+}
