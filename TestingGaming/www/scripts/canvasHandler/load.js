@@ -1,4 +1,4 @@
-﻿const worldWidth = 20;
+﻿const worldWidth = 30;
 const worldHeight = 30;
 
 var player;
